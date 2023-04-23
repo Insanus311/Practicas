@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\facuj\Desktop\Drive\Facultad\2023\Primer Semestre\Progra 3\Practicas\.metadata\.plugins\org.eclipse.jdt.core
+2849373078.index
+296902794.index
+3551592467.index
+2449712988.index
+1865797976.index
+2582499840.index

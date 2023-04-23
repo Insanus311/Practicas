@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Practica2A.Multiplos"/>
+    <fullyQualifiedTypeName name="prog3.util.UtilitariosLista"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="prog3.util.PilaGenerica"/>
+    <fullyQualifiedTypeName name="prog3.arbol.binario.util.Utiles"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="prog3.arbol.ArbolBinario"/>
+    <fullyQualifiedTypeName name="prog3.arbol.binario.util.Adivinanza"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="prog3.util.Cola"/>
+    <fullyQualifiedTypeName name="prog3.arbol.general.ArbolGeneral"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="prog3.listagenerica.ListaGenerica"/>
+    <fullyQualifiedTypeName name="prog3.listagenerica.ListaGenericaEnlazada"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+</qualifiedTypeNameHistroy>

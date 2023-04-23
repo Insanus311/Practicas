@@ -1,0 +1,25 @@
+package P5b;
+
+public class Empleado {
+	String nombre;
+	int antiguedad,categoria;
+	public String getNombre() {
+		return nombre;
+	}
+	public int getAntiguedad() {
+		return antiguedad;
+	}
+	public int getCategoria() {
+		return categoria;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public void setAntiguedad(int antiguedad) {
+		this.antiguedad = antiguedad;
+	}
+	public void setCategoria(int categoria) {
+		this.categoria = categoria;
+	}
+	
+}

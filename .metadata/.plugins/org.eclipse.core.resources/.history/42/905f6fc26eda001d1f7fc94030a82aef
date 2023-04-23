@@ -1,0 +1,39 @@
+package P5b;
+
+import prog3.arbol.general.ArbolGeneral;
+import prog3.listagenerica.ListaGenerica;
+import prog3.listagenerica.ListaGenericaEnlazada;
+import prog3.util.Cola;
+
+public class Empresa {
+	ArbolGeneral<Empleado> empleados = new ArbolGeneral<Empleado>();
+	
+	public ArbolGeneral<Empleado> getEmpleados() {
+		return empleados;
+	}
+
+	public ListaGenerica<Empleado> empleadosPorCategoria(int categoria){
+		ListaGenerica<Empleado> lista = new ListaGenericaEnlazada<Empleado>();
+		llenarlista(categoria,lista, empleados);
+		return lista;
+	}
+	
+	private void llenarlista(int categoria, ListaGenerica<Empleado> lista, ArbolGeneral<Empleado> arbol) {
+		if (arbol!=null) {
+			if (categoria-arbol.altura()==1) {
+				lista.agregarFinal(arbol.getDato());
+			}
+			else {
+				arbol.getHijos().comenzar();
+				while(!arbol.getHijos().fin()) {
+					llenarlista(categoria,lista,arbol.getHijos().proximo());
+				}
+			}
+		}
+	}
+	
+	public int categoriaConMasEmpleados(){
+		
+		return 1;
+	}
+}
