@@ -1,0 +1,30 @@
+import prog3.arbol.ArbolBinario;
+
+public class ProcesadorDeArbol {
+	private ArbolBinario<Character> arbol = new ArbolBinario<Character>();
+	public static void main(String[] args) {
+		
+
+	}
+	public int procesar(int k) {
+		if (arbol.esVacio()) return 0;
+		else return procesarRec(arbol,k);
+	}
+	
+	private int procesarRec(ArbolBinario<Character> a, int k) {
+		if (a.esHoja()) return 1;
+		else if ((a.tieneHijoDerecho()&&a.tieneHijoIzquierdo())) {
+			return procesarRec(a.getHijoIzquierdo(),k) + procesarRec(a.getHijoDerecho(),k);
+		}
+		else if(k>0) {
+			if(a.tieneHijoDerecho()&&!a.tieneHijoIzquierdo()) {
+				return procesarRec(a.getHijoDerecho(),k-1);
+			}
+			else if(!a.tieneHijoDerecho()&&a.tieneHijoIzquierdo()) {
+				return procesarRec(a.getHijoIzquierdo(),k-1);
+			}
+		}
+		else return 0;
+	}
+	
+}

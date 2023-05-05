@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="prog3.arbol.binario.util.Utiles"/>
     <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="prog3.arbol.ArbolBinario"/>
     <fullyQualifiedTypeName name="prog3.arbol.binario.util.Adivinanza"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
@@ -21,4 +20,5 @@
     <fullyQualifiedTypeName name="prog3.listagenerica.ListaGenerica"/>
     <fullyQualifiedTypeName name="prog3.listagenerica.ListaGenericaEnlazada"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="prog3.arbol.ArbolBinario"/>
 </qualifiedTypeNameHistroy>
